@@ -1,0 +1,35 @@
+{
+    "workbench.colorTheme": "Ayu Dark",
+    "workbench.iconTheme": "file-icons",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.printWidth": 100,
+    "prettier.semi": false,
+    "prettier.arrowParens": "avoid",
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "editor.formatOnSave": true,
+    "editor.tabSize": 2,
+    "editor.wordWrapColumn": 100,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "workbench.preferredDarkColorTheme": "Ayu Dark",
+    "workbench.preferredLightColorTheme": "Solarized Light",
+    "window.zoomLevel": 1,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.fontFamily": "'Anonymous Pro','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "diffEditor.codeLens": true,
+    "editor.renderWhitespace": "all",
+    "workbench.activityBar.visible": true,
+    "editor.minimap.enabled": true,
+    "editor.renderControlCharacters": true,
+    "files.exclude": {
+        "**/.git": false
+    },
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.compactFolders": false,
+    "todo-tree.tree.showScanModeButton": false,
+    "licenser.author": "Ahmed MEftah",
+    "licenser.license": "MIT",
+    "php-cs-fixer.onsave": true
+}
