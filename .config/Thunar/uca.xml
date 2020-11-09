@@ -10,4 +10,14 @@
 	<startup-notify/>
 	<directories/>
 </action>
+<action>
+	<icon>code-oss</icon>
+	<name>Open with code</name>
+	<unique-id>1587397415790974-1</unique-id>
+	<command>code %f </command>
+	<description>Open folder with Code-oss</description>
+	<patterns>*</patterns>
+	<startup-notify/>
+	<directories/>
+</action>
 </actions>
