@@ -1,23 +1,34 @@
 {
-  "workbench.colorTheme": "Ayu Dark",
-  "workbench.iconTheme": "file-icons",
+  "workbench.colorTheme": "Dracula At Night",
+  "workbench.iconTheme": "vscode-icons",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "prettier.printWidth": 100,
+  "prettier.printWidth": 120,
   "prettier.semi": false,
   "prettier.arrowParens": "avoid",
   "prettier.bracketSameLine": true,
   "prettier.jsxSingleQuote": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": false,
+  "git.enableSmartCommit": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "workbench.editor.untitled.hint": "hidden",
   "editor.formatOnSave": true,
   "editor.tabSize": 2,
-  "editor.wordWrapColumn": 100,
+  "editor.wordWrapColumn": 120,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "workbench.preferredDarkColorTheme": "Ayu Dark",
-  "workbench.preferredLightColorTheme": "Solarized Light",
   "window.zoomLevel": 1,
   "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontFamily": "'Anonymous Pro','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "python.formatting.provider": "black",
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+
   "diffEditor.codeLens": true,
   "editor.renderWhitespace": "all",
   "workbench.activityBar.visible": true,
@@ -26,10 +37,45 @@
   "files.exclude": {
     "**/.git": false
   },
+
+  "editor.wordWrap": "off",
+  "diffEditor.wordWrap": "off",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "editor.inlayHints.enabled": "on",
+
   "workbench.startupEditor": "newUntitledFile",
   "explorer.compactFolders": false,
   "todo-tree.tree.showScanModeButton": false,
   "licenser.author": "Ahmed MEftah",
   "licenser.license": "MIT",
-  "php-cs-fixer.onsave": true
+  "php-cs-fixer.onsave": true,
+
+  "sync.gist": "002bfa6bb4ecd9b48c82223ea4c8e285",
+  "sync.autoDownload": true,
+  "sync.autoUpload": true,
+  "sync.forceDownload": false,
+
+  "files.associations": {
+    "*.html": "html"
+  },
+
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
