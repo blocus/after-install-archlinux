@@ -7,5 +7,13 @@
   {
     "key": "shift+alt+n",
     "command": "explorer.newFolder"
+  },
+  {
+    "key": "ctrl+shift+k ctrl+shift+l",
+    "command": "editor.action.transformToLowercase"
+  },
+  {
+    "key": "ctrl+shift+k ctrl+shift+p",
+    "command": "editor.action.transformToUppercase"
   }
 ]
